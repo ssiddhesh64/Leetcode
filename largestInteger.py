@@ -1,5 +1,7 @@
 # Find the Largest Almost Missing Integer
 # https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/?envType=daily-question&envId=2026-08-18
+# Level - Easy
+# Tags - Array, Hash Table
 
 from collections import Counter
 from typing import List
