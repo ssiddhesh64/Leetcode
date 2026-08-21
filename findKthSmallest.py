@@ -1,3 +1,9 @@
+# Kth Smallest Amount With Single Denomination Combination
+# https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/?envType=daily-question&envId=2026-08-21
+# Level - Hard
+# Tags - Array, Binary Search, Math, Inclusion-Exclusion, Number Theory
+from typing import List
+
 class Solution:
     def findKthSmallest(self, coins: List[int], k: int) -> int:
         
