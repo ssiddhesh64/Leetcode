@@ -60,7 +60,7 @@ class Solution:
                         coin_num = coins[n - to_set - 1]
                         new_lcm = (prev_lcm // gcd(prev_lcm, coin_num)) * coin_num
                         if new_lcm > k * coins[-1]:
-                            break
+                            continue
                         lcms[cnt].append((new_num, new_lcm))
     
         # print(lcms)
