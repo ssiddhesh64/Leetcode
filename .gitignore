@@ -18,6 +18,8 @@ ENV/
 .vscode/
 *.iml
 
+**target/
+
 # macOS
 .DS_Store
 
